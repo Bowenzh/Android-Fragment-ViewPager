@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/homepage_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kuaican1" />
+
+    <TextView
+        android:id="@+id/homepage_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@+id/homepage_iv"
+        android:layout_toRightOf="@+id/homepage_iv"
+        android:text="name"
+        android:textSize="@dimen/homepage_name" />
+
+    <TextView
+        android:id="@+id/homepage_startValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homepage_name"
+        android:layout_toEndOf="@+id/homepage_iv"
+        android:layout_toRightOf="@+id/homepage_iv"
+        android:text="startValue"
+        android:textSize="@dimen/homepage_start" />
+
+    <TextView
+        android:id="@+id/homepage_deliverFee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homepage_startValue"
+        android:layout_toEndOf="@+id/homepage_iv"
+        android:layout_toRightOf="@+id/homepage_iv"
+        android:text="deliverFee"
+        android:textSize="@dimen/homepage_deliver" />
+
+    <TextView
+        android:id="@+id/homepage_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homepage_deliverFee"
+        android:layout_toEndOf="@+id/homepage_iv"
+        android:layout_toRightOf="@+id/homepage_iv"
+        android:text="review"
+        android:textSize="@dimen/homepage_deliver" />
+    <TextView
+        android:id="@+id/homepage_sell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homepage_review"
+        android:layout_toEndOf="@+id/homepage_iv"
+        android:layout_toRightOf="@+id/homepage_iv"
+        android:text="sold"
+        android:textSize="@dimen/homepage_deliver" />
+
+</RelativeLayout>

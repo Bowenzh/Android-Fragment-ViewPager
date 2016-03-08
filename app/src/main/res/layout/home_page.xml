@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/search_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp">
+
+        <EditText
+            android:background="@null"
+            android:layout_marginLeft="50dp"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/search_height_ed" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/homepage_cell"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </ListView>
+
+</LinearLayout>
